@@ -1,0 +1,14 @@
+.container {
+  height: 100%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    164deg,
+    rgba(255, 255, 255, 1) 17%,
+    rgba(197, 215, 255, 0.8939950980392157) 56%,
+    rgba(164, 230, 185, 0.7147233893557423) 100%
+  );
+}
+
+.logoOverride {
+  margin: 0 auto;
+}

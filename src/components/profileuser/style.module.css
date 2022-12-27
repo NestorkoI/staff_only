@@ -1,0 +1,39 @@
+.container {
+  min-height: 60px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(244, 244, 244);
+  border-radius: 10px;
+}
+
+.container:hover {
+  background-color: #d8daf0;
+  cursor: pointer;
+}
+
+.container.active {
+  background-color: #d8daf0;
+}
+
+.container:hover > img {
+  border: 2px solid rgb(66 77 166);
+}
+
+.container > img {
+  width: 45px;
+  height: 45px;
+  border-radius: 30%;
+  border: 2px solid rgb(192, 207, 195);
+  padding: 5px;
+  object-fit: cover;
+}
+
+.info {
+  margin-left: 25px;
+}
+
+.info div:nth-of-type(1) {
+  color: black;
+  font-size: 17px;
+}

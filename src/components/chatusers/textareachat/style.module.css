@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  background-color: white;
+  border-top: 1px solid grey;
+  width: 100%;
+}
+
+.inputField {
+  flex: 1;
+}
+
+.inputField textarea {
+  resize: none !important;
+  border: none;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+}
+
+.action button {
+  color: white;
+  background-color: #22af48;
+  /* border-radius: 4px; */
+  width: 70px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.action button:hover {
+  background-color: #1c903b;
+  color: white;
+}

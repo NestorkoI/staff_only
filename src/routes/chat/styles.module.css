@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+}
+
+.sidebarContainer {
+  width: 100%;
+  min-width: 200px;
+  max-width: 350px;
+}
+
+.sidebarFooter {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: ; */
+  padding: 20px;
+}
+
+.sidebarFooter > button {
+  /* color: white; */
+  background-color: #424da6;
+  /* border-radius: 4px; */
+  width: 80px;
+  /* padding: 15px; */
+  margin-top: 10px;
+}
+
+.sidebarFooter > button:hover {
+  background-color: #2d3365;
+}
+
+.emptyChatMessage {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.wrap {
+  background-color: rgb(192, 207, 195);
+  width: 100%;
+  z-index: -2;
+}

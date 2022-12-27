@@ -1,0 +1,36 @@
+.container {
+  background-color: rgb(192, 207, 195);
+  width: 100%;
+}
+
+.patternWrapper {
+  background-color: rgb(192, 207, 195);
+  width: 100%;
+  /* https://www.magicpattern.design/tools/css-backgrounds */
+  background-image: linear-gradient(135deg, #c5d7ff 25%, transparent 25%),
+    linear-gradient(225deg, #c5d7ff 25%, transparent 25%), linear-gradient(45deg, #c5d7ff 25%, transparent 25%),
+    linear-gradient(315deg, #c5d7ff 25%, #e5e5f7 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 10px 10px;
+  background-repeat: repeat;
+  border-radius: 4%;
+}
+
+.relativeContainer {
+  width: 100%;
+  height: 100vh;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4%;
+  border: 4px solid rgb(192, 207, 195);
+  border-left: 2px solid rgb(192, 207, 195);
+}
+
+.childrenWrapper {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}

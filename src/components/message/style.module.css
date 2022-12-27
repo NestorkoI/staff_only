@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  background-color: aliceblue;
+  border-radius: 5px;
+  box-shadow: 3px 4px 5px -1px rgba(0, 0, 0, 0.17);
+  padding-right: 5px;
+}
+
+.avatar {
+  border-radius: 20px;
+  overflow: hidden;
+  margin-left: 5px;
+  min-width: 30px;
+  height: 30px;
+}
+
+.avatar > img {
+  width: 30px;
+  height: 30px;
+}
+
+.message {
+  margin-top: 5px;
+  margin-left: 5px;
+}
